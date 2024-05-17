@@ -1,0 +1,19 @@
+@import url('https://api.fontshare.com/v2/css?f[]=excon@300,500,700&f[]=outfit@300,500,600,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    scroll-behavior: smooth;
+    
+}
+
+.font-excon {
+  font-family: 'Excon', sans-serif;
+}
+
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
